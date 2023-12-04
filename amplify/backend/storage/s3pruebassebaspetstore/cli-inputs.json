@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3pruebassebaspetstore",
+  "bucketName": "pruebas-sebas-petstore",
+  "policyUUID": "b7a98b7b",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
