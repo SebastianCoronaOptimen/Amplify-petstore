@@ -31,7 +31,7 @@ function App({user, signOut}) {
   // Contenido del archivo de texto que deseas crear
   const contenido = 'Este es el contenido del archivo de texto que estoy creando en el momento.';
 
-  
+
   // Crea un Blob con el contenido del archivo y especifica el tipo de contenido (en este caso, texto/plain)
   const blob = new Blob([contenido], { type: 'text/plain' });
 
@@ -140,7 +140,7 @@ function App({user, signOut}) {
               overrides={formOverride}
               style={{
                 textAlign: "left",
-                margin: "1rem"
+                margin: "2rem"
               }}/>
           )
         }
